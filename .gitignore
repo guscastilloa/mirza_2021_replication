@@ -4,6 +4,16 @@
 ## Ignore original replication files
 PNAS_light_inequality/
 
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default:
+
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.tex
