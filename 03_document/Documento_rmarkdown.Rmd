@@ -61,6 +61,13 @@ mod_4 <- lm(Gini ~ Light_Gini +
 summary(mod_4)
 ```
 
+Esto sí es Markdown, porque podemos poner **negrilla**, *cursiva*, y ~~tachar~~. 
+
+$$
+\ln (wage) = \alpha + \beta_1 age + \beta_2 age^2
+$$
+
+
 ```{r, results='asis', echo=TRUE, warning=FALSE}
 modelsummary(list(mod_1,mod_2,mod_3,mod_4), output="latex")
 ```
