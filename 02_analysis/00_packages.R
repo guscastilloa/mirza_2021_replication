@@ -15,7 +15,9 @@ paquetes <- c(
   # Diagramas
   "visreg",
   "ggplot2",
-  "RColorBrewer"
+  "RColorBrewer",
+  # GIS
+  "sf"
 )
 
 
